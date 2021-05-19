@@ -1,5 +1,8 @@
 {
-  "name": "parse-entities",
+  "name": "@besync/parse-entities-webworker",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "2.0.0",
   "description": "Parse HTML character references: fast, spec-compliant, positional information",
   "license": "MIT",
@@ -21,7 +24,7 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
-  "browser": {
+  "browser-nonwebworker": {
     "./decode-entity.js": "./decode-entity.browser.js"
   },
   "react-native": {

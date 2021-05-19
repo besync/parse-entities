@@ -1,4 +1,11 @@
-# parse-entities
+# @besync/parse-entities-webworker
+
+## @besync fork of parse-entities
+
+Changed browser field in package.json so not automatically picked up by webpack for compatibility with webworker.  This 
+fork is not needed if you can change your webpack config.
+
+Use yarn resolutions field in package.json to install.
 
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
